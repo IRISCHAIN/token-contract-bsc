@@ -1,3 +1,26 @@
+
+# IRIS Chain Smart Contract
+
+**IRIS Chain** is the native utility token of the IRIS project, implemented on the Polygon blockchain adhering to the ERC-20 standard. This repository contains the smart contract code and related documentation, providing a transparent and secure foundation for token operations and ecosystem expansion.
+
+## 🔧 Key Features
+
+- **ERC-20 Compliance**: Built using OpenZeppelin's library to ensure reliability and compatibility.
+- **Initial Supply Configuration**: Total supply is set during deployment and allocated to the deployer's address.
+- **Burnable Functionality**: Allows token holders to voluntarily burn tokens, reducing total supply.
+- **Ownership Transferability**: Enables the transfer of contract ownership to another address.
+- **Event Logging**: Logs critical events like `Transfer` and `Approval` for transparency.
+
+## 📄 Contract Information
+
+- **Contract Name**: `IRISChain`
+- **Token Symbol**: `IRC`
+- **Decimals**: `18`
+- **Total Supply**: `2,000,000,000 IRC`
+- **Deployment Network**: BEP-20 Mainnet
+- **Contract Address**: `0x5838Bb6E87d7777dcFF809beFb696103326f1634`
+- 
+
 # Sample Hardhat 3 Project (`mocha` and `ethers`)
 
 This project showcases a Hardhat 3 project using `mocha` for tests and the `ethers` library for Ethereum interactions.
